@@ -4,7 +4,10 @@
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <NuxtLink to="/" class="flex-shrink-0">
-          <img class="h-8 w-8" src="#" alt="Logo">
+          <a href="https://flowbite.com/" class="flex items-center">
+            <img src="/logo.png" class="h-8 me-3 rounded-full" alt="FlowBite Logo" />
+            <span class="self-center text-gray-800 text-xl font-semibold whitespace-nowrap ">Moves & Links</span>
+          </a>
         </NuxtLink>
 
         <!-- Desktop Menu -->
